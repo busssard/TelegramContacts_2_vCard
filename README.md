@@ -1,5 +1,5 @@
 # TelegramContacts_2_vCard# 📱 Telegram to vCard Converter
-
+![Screenshot of the UI](https://raw.githubusercontent.com/busssard/TelegramContacts_2_vCard/refs/heads/main/Screenshot%20from%202025-12-03%2017-53-22.png)
 A simple, single-file web application that converts Telegram contact exports to vCard format (.vcf) for easy import into any contact management system.
 
 ## 🚀 Usage
