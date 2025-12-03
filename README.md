@@ -2,20 +2,11 @@
 
 A simple, single-file web application that converts Telegram contact exports to vCard format (.vcf) for easy import into any contact management system.
 
-## ✨ Features
-
-- **Zero Dependencies** - Single HTML file with everything included
-- **Drag & Drop** - Simply drop your JSON file or paste the content
-- **Live Preview** - See all contacts before downloading
-- **Statistics** - View contact count and file size
-- **Universal Format** - Creates vCard 3.0 compatible with all major platforms
-- **Privacy First** - All processing happens locally in your browser
-
 ## 🚀 Usage
 
 1. **Export your Telegram contacts**
    - Open Telegram Desktop
-   - Go to Settings → Privacy and Security → Export Telegram Data
+   - Go to Settings → Advanced → Export Telegram Data
    - Select "Contact list" and export as JSON
 
 2. **Convert to vCard**
@@ -26,11 +17,7 @@ A simple, single-file web application that converts Telegram contact exports to 
    - Click "Download vCard File"
 
 3. **Import contacts**
-   - Import the downloaded `.vcf` file into:
-     - iPhone/iCloud Contacts
-     - Google Contacts
-     - Outlook
-     - Any other contact management app
+   - Import the downloaded `.vcf` file into yourr contact management app
 
 ## 📋 Expected JSON Format
 
@@ -69,15 +56,9 @@ The converter expects Telegram's standard export format:
 
 ## 📦 Installation
 
-No installation needed! Just download or save the HTML file and open it in your browser.
-
-```bash
-# Clone or download
-wget https://[your-url]/telegram-vcard-converter.html
-
-# Open in browser
-open telegram-vcard-converter.html
-```
+No installation or internet needed!
+Its completely local, just using the browser as User INterface
+Just download or save the HTML file and open it in your browser.
 
 ## 🛡️ Privacy & Security
 
@@ -96,7 +77,7 @@ Since this is a single-file application, improvements are welcome:
 
 ## 📝 License
 
-This project is provided as-is for personal use. Feel free to modify and share.
+This project is provided as-is for non-commercial personal use.
 
 ## 🔍 Troubleshooting
 
